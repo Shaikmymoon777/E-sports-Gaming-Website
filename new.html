@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>python</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        background-color: #111124;
+      }
+      .sign{
+        position: relative;
+        background: none;
+        color: #303030;
+        font-size:5rem;
+        font-family: 'Varela Round',sans-serif;
+      }
+      #one{
+        animation: flicker-n_2 5s infinite forwards;
+      }
+      #three{
+        -webkit-animation: flicker-0 5s infinite linear;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sign" id="one">M</div>
+      <div class="sign" id="two">O</div>
+      <div class="sign" id="three">O</div>
+      <div class="sign" id="four">O</div>
+    </div>
+  </body>
+</html>
